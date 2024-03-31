@@ -96,7 +96,7 @@ header .top .left {
     border-radius: 10px;
     background-color: var(--light-grey-colour);
     padding: 5px 15px;
-    width: 100%;
+    width: 40%;
 }
 
 header .top .right {
