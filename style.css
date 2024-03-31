@@ -73,7 +73,13 @@ header {
     grid-column: 2;
     grid-row: 1 / 2;
     display: grid;
+    grid-template-rows: 1fr 2fr;
 }
+
+header .bottom {
+    grid-row-start: 2;
+}
+
 
 /* main section */
 main {
