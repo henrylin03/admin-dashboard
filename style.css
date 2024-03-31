@@ -69,6 +69,7 @@ h1 {
 }
 
 /* header section */
+
 header {
     grid-column: 2;
     grid-row: 1 / 2;
@@ -77,13 +78,16 @@ header {
 }
 
 header .top {
+    width: 100%;
     display: flex;
+    gap: 20px;
 }
 
 header .top .left {
     display: flex;
     align-items: center;
     gap: 10px;
+    flex: 8;
 }
 
 #search-bar {
@@ -92,7 +96,12 @@ header .top .left {
     border-radius: 10px;
     background-color: var(--light-grey-colour);
     padding: 5px 15px;
-    width: 30%;
+    width: 100%;
+}
+
+header .top .right {
+    flex: 1;
+    display: flex;
 }
 
 header .bottom {
