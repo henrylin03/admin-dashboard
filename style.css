@@ -44,6 +44,7 @@ body {
 .sidebar div p,
 h1 {
     align-self: center;
+    font-weight: bold;
 }
 
 .sidebar div figure {
