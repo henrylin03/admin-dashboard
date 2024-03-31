@@ -76,7 +76,7 @@ header {
     grid-row: 1 / 2;
     display: grid;
     grid-template-rows: 1fr 2fr;
-    padding: 10px 25px;
+    padding: 20px 50px;
 }
 
 header .top {
@@ -106,6 +106,7 @@ header .top .right {
     flex: 1;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     gap: 25px;
     font-weight: bold;
 }
@@ -144,6 +145,15 @@ header .bottom {
     flex: 1;
     display: flex;
     gap: 25px;
+    justify-content: flex-end;
+}
+
+button {
+    background-color: var(--primary-colour);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 25px;
 }
 
 
