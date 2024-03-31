@@ -130,6 +130,13 @@ header .bottom {
     display: flex;
     align-items: center;
     gap: 15px;
+    font-weight: bold;
+}
+
+.greeting .text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .action-buttons {
