@@ -26,9 +26,10 @@ body {
     background-color: var(--primary-colour);
     grid-column: 1;
     grid-row: 1 / -1;
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-    grid-template-rows: repeat(12, 50px);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 10px 15px;
 }
 
 /* header section */
