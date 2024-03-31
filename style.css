@@ -116,6 +116,10 @@ header .top .right {
     gap: 20px;
 }
 
+.avatar {
+    border-radius: 100%;
+}
+
 header .bottom {
     grid-row-start: 2;
 }
