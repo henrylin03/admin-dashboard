@@ -159,8 +159,9 @@ button {
     border-radius: 20px;
     font-weight: bold;
     font-family: inherit;
+    font-size: inherit;
     cursor: pointer;
-    width: 125px;
+    width: 150px;
 }
 
 button:hover {
