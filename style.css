@@ -123,6 +123,7 @@ header .top .right {
 header .bottom {
     grid-row-start: 2;
     display: flex;
+    align-items: center;
 }
 
 .greeting {
