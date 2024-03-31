@@ -21,7 +21,7 @@ body {
     height: 100%;
     display: grid;
     grid-template-rows: 1fr 5fr;
-    grid-template-columns: 1fr 8fr;
+    grid-template-columns: 1fr 6fr;
 }
 
 /* nav (sidebar) section */
@@ -32,7 +32,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding-top: 10px;
+    padding: 10px;
 }
 
 .sidebar div {
@@ -43,7 +43,6 @@ body {
 .sidebar a {
     display: grid;
     grid-template-columns: 30% 70%;
-    gap: 15px 5px;
     text-decoration: none;
 }
 
@@ -52,7 +51,7 @@ body {
 }
 
 .sidebar a:hover {
-    filter: brightness(80%);
+    filter: brightness(90%);
 }
 
 .sidebar img {
