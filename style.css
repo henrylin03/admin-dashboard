@@ -88,7 +88,7 @@ header .top .left {
     display: flex;
     align-items: center;
     gap: 10px;
-    flex: 8;
+    flex: 5;
 }
 
 #search-bar {
@@ -103,6 +103,7 @@ header .top .left {
 header .top .right {
     flex: 1;
     display: flex;
+    gap: 25px;
 }
 
 header .bottom {
