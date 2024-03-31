@@ -16,11 +16,12 @@
     grid-template-columns: 1fr 5fr;
 }
 
-/* nav section */
+/* nav (sidebar) section */
 nav {
     background-color: var(--primary-colour);
     grid-column: 1;
     grid-row: 1 / -1;
+    display: grid;
 }
 
 /* header section */
