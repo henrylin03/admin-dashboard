@@ -2,6 +2,7 @@
 
 :root {
     --primary-colour: #006572;
+    --primary-colour-lighter: hsl(187, 100%, 25%);
     --secondary-colour: #f3b335;
     --light-grey-colour: #DFE0DF;
 }
@@ -160,6 +161,10 @@ button {
     font-family: inherit;
     cursor: pointer;
     width: 125px;
+}
+
+button:hover {
+    background-color: var(--primary-colour-lighter);
 }
 
 
