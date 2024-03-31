@@ -33,6 +33,11 @@ a:visited {
     color: inherit;
 }
 
+h1,
+.username-and-handle {
+    font-size: 25px;
+}
+
 /* nav (sidebar) section */
 .sidebar {
     background-color: var(--primary-colour);
