@@ -24,6 +24,14 @@ body {
     grid-template-columns: 1fr 6fr;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
 /* nav (sidebar) section */
 .sidebar {
     background-color: var(--primary-colour);
@@ -43,11 +51,6 @@ body {
 .sidebar a {
     display: grid;
     grid-template-columns: 30% 70%;
-    text-decoration: none;
-}
-
-.sidebar a:visited {
-    color: inherit;
 }
 
 .sidebar a:hover {
@@ -105,6 +108,12 @@ header .top .right {
     align-items: center;
     gap: 25px;
     font-weight: bold;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 header .bottom {
