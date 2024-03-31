@@ -34,8 +34,17 @@ body {
 
 .sidebar div {
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 30% 70%;
     gap: 5px;
+}
+
+.sidebar div p,
+h1 {
+    align-self: center;
+}
+
+.sidebar div figure {
+    justify-self: center;
 }
 
 /* header section */
