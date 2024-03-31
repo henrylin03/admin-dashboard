@@ -28,8 +28,13 @@ body {
     grid-row: 1 / -1;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
     padding: 10px 15px;
+}
+
+.sidebar div {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }
 
 /* header section */
