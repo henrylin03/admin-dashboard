@@ -37,18 +37,25 @@ body {
 
 .sidebar div {
     display: grid;
+    gap: 15px 5px;
+}
+
+.sidebar a {
+    display: grid;
     grid-template-columns: 30% 70%;
     gap: 15px 5px;
 }
 
-.sidebar div p,
-h1 {
-    align-self: center;
-    font-weight: bold;
+.sidebar img {
+    grid-column-start: 1;
+    justify-self: center;
 }
 
-.sidebar div img {
-    justify-self: center;
+.sidebar p,
+h1 {
+    grid-column-start: 2;
+    align-self: center;
+    font-weight: bold;
 }
 
 /* header section */
