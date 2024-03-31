@@ -76,6 +76,20 @@ header {
     grid-template-rows: 1fr 2fr;
 }
 
+header .top .search {
+    display: flex;
+    align-items: center;
+}
+
+#search-bar {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--light-grey-colour);
+    padding: 5px 15px;
+    width: 30%;
+}
+
 header .bottom {
     grid-row-start: 2;
 }
