@@ -127,6 +127,9 @@ header .bottom {
 
 .greeting {
     flex: 4;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .action-buttons {
