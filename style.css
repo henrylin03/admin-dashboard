@@ -51,6 +51,10 @@ body {
     color: inherit;
 }
 
+.sidebar a:hover {
+    filter: brightness(85%);
+}
+
 .sidebar img {
     grid-column-start: 1;
     justify-self: center;
