@@ -99,7 +99,7 @@ header .top .left {
     background-color: var(--light-grey-colour);
     padding: 5px 15px;
     width: 70%;
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family: inherit;
 }
 
 header .top .right {
@@ -154,6 +154,9 @@ button {
     border: none;
     outline: none;
     padding: 10px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: inherit;
 }
 
 
