@@ -122,6 +122,15 @@ header .top .right {
 
 header .bottom {
     grid-row-start: 2;
+    display: flex;
+}
+
+.greeting {
+    flex: 4;
+}
+
+.action-buttons {
+    flex: 1;
 }
 
 
