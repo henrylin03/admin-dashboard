@@ -87,7 +87,7 @@ header .top {
 header .top .left {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     flex: 5;
 }
 
@@ -97,12 +97,14 @@ header .top .left {
     border-radius: 10px;
     background-color: var(--light-grey-colour);
     padding: 5px 15px;
-    width: 40%;
+    width: 70%;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 header .top .right {
     flex: 1;
     display: flex;
+    align-items: center;
     gap: 25px;
 }
 
