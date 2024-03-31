@@ -76,7 +76,11 @@ header {
     grid-template-rows: 1fr 2fr;
 }
 
-header .top .search {
+header .top {
+    display: flex;
+}
+
+header .top .left {
     display: flex;
     align-items: center;
     gap: 10px;
