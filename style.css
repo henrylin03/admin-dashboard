@@ -213,16 +213,18 @@ main {
     gap: 15px;
 }
 
-.announcement {
+.announcement-item {
     display: flex;
     flex-direction: column;
+    border-bottom: 1px solid var(--light-grey-colour);
+    padding-bottom: 15px;
 }
 
-.announcement .title {
+.announcement-item>.title {
     font-weight: bold;
 }
 
-.announcement .text {
+.announcement-item>.text {
     color: var(--dark-grey-colour);
 }
 
