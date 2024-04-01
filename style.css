@@ -276,4 +276,13 @@ main {
 
 .project-item {
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
 }
