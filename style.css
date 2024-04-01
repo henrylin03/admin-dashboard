@@ -210,6 +210,12 @@ main {
 .announcements .card {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.announcement {
+    display: flex;
+    flex-direction: column;
 }
 
 .announcement .title {
