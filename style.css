@@ -197,6 +197,6 @@ main {
     grid-column-start: 2;
 }
 
-.trending {
-    width: 30px;
+.trending-user {
+    width: 40px;
 }
