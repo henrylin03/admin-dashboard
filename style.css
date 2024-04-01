@@ -19,6 +19,20 @@ body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
+h1,
+.username-and-handle {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
 .grid {
     height: 100%;
     display: grid;
@@ -34,18 +48,12 @@ a:visited {
     color: inherit;
 }
 
-h1,
-.username-and-handle {
-    font-size: 1.5rem;
-}
-
-h2 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-
-h3 {
-    font-size: 1rem;
+button {
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
 }
 
 /* nav (sidebar) section */
@@ -171,14 +179,9 @@ header .bottom {
 header button {
     background-color: var(--primary-colour);
     color: white;
-    border: none;
-    outline: none;
     padding: 10px 0;
     border-radius: 20px;
     font-weight: bold;
-    font-family: inherit;
-    font-size: inherit;
-    cursor: pointer;
     width: 150px;
 }
 
@@ -289,4 +292,9 @@ main {
     display: flex;
     justify-content: flex-end;
     gap: 30px;
+}
+
+main button {
+    outline: none;
+    border: none;
 }
