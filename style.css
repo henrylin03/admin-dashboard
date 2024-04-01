@@ -188,3 +188,11 @@ main {
     grid-template-rows: repeat(3, 1fr);
     padding: 30px 20px;
 }
+
+.announcements {
+    grid-column-start: 3;
+}
+
+.trending {
+    grid-column-start: 3;
+}
