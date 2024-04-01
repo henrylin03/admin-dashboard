@@ -35,7 +35,11 @@ a:visited {
 
 h1,
 .username-and-handle {
-    font-size: 25px;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.2rem;
 }
 
 /* nav (sidebar) section */
