@@ -17,7 +17,6 @@
 body {
     height: 100dvh;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
-    overflow: hidden;
 }
 
 .grid-container {
@@ -264,4 +263,6 @@ main {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 20px;
+    justify-items: stretch;
+    height: 100%;
 }
