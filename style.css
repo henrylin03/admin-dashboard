@@ -5,6 +5,7 @@
     --primary-colour-lighter: hsl(187, 100%, 25%);
     --secondary-colour: #f3b335;
     --light-grey-colour: #DFE0DF;
+    --dark-grey-colour: hsl(120, 2%, 50%);
 }
 
 * {
@@ -219,5 +220,5 @@ main {
 }
 
 .trending-project-name {
-    color: hsl(0, 0%, 55%);
+    color: var(--dark-grey-colour);
 }
