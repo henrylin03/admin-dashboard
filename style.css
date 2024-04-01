@@ -207,6 +207,10 @@ main {
     grid-column-start: 2;
 }
 
+.announcement .title {
+    font-weight: bold;
+}
+
 .trending {
     grid-column-start: 2;
 }
