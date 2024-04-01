@@ -213,6 +213,7 @@ main {
 }
 
 .trending-users-details {
+    align-self: center;
     display: flex;
     flex-direction: column;
 }
