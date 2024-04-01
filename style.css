@@ -233,6 +233,7 @@ main {
 
 .trending {
     grid-column-start: 2;
+    align-self: end;
 }
 
 .trending .card {
@@ -267,4 +268,8 @@ main {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 20px;
+}
+
+.project-item {
+    padding: 30px;
 }
