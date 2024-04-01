@@ -297,4 +297,11 @@ main {
 main button {
     outline: none;
     border: none;
+    background: transparent;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+main button:hover {
+    background-color: whitesmoke;
 }
