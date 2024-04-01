@@ -222,6 +222,10 @@ main {
     font-weight: bold;
 }
 
+.announcement .text {
+    color: var(--dark-grey-colour);
+}
+
 .trending {
     grid-column-start: 2;
 }
