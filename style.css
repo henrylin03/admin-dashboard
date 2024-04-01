@@ -210,7 +210,8 @@ main {
 }
 
 .trending-user.avatar {
-    width: 40px;
+    width: 2.2vw;
+    align-self: center;
 }
 
 .trending-users-details {
