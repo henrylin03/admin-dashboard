@@ -203,6 +203,7 @@ main {
     grid-template-rows: repeat(4, 1fr);
     gap: 10px;
     margin-top: 10px;
+    box-shadow: 4px 4px 6px -1px rgb(186, 186, 186);
 }
 
 .announcements {
