@@ -191,7 +191,8 @@ main {
     display: grid;
     grid-template-columns: 4.5fr 1fr;
     grid-template-rows: repeat(2, 1fr);
-    padding: 50px;
+    padding: 50px 50px 0 50px;
+    gap: 10px;
 }
 
 .card {
