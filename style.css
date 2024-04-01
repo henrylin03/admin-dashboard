@@ -126,7 +126,11 @@ header .top .right {
 .user-info {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
+}
+
+.user-info .avatar {
+    width: 1.2vw;
 }
 
 .avatar {
