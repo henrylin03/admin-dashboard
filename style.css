@@ -194,7 +194,7 @@ main {
     padding: 25px;
     border-radius: 15px;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 20% 80%;
     grid-template-rows: repeat(4, 1fr);
     gap: 10px;
     margin-top: 10px;
@@ -210,6 +210,11 @@ main {
 
 .trending-user.avatar {
     width: 40px;
+}
+
+.trending-users-details {
+    display: flex;
+    flex-direction: column;
 }
 
 .trending-project-name {
