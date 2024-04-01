@@ -216,6 +216,9 @@ main {
 .announcement-item {
     display: flex;
     flex-direction: column;
+}
+
+.announcement-item:not(:last-child) {
     border-bottom: 1px solid var(--light-grey-colour);
     padding-bottom: 15px;
 }
