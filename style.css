@@ -197,6 +197,14 @@ main {
     grid-column-start: 2;
 }
 
+.card {
+    background-color: white;
+}
+
 .trending-user {
     width: 40px;
+}
+
+.trending-project-name {
+    color: hsl(0, 0%, 55%);
 }
