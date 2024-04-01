@@ -193,6 +193,10 @@ main {
     background-color: white;
     padding: 25px;
     border-radius: 15px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
 }
 
 .announcements {
@@ -203,7 +207,7 @@ main {
     grid-column-start: 2;
 }
 
-.trending-user {
+.trending-user.avatar {
     width: 40px;
 }
 
