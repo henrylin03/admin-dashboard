@@ -4,7 +4,7 @@
     --primary-colour: #006572;
     --primary-colour-lighter: hsl(187, 100%, 25%);
     --secondary-colour: #f3b335;
-    --light-grey-colour: #DFE0DF;
+    --light-grey-colour: hsl(187, 40%, 87%);
     --dark-grey-colour: hsl(120, 2%, 50%);
 }
 
@@ -205,7 +205,7 @@ main {
 .card {
     background-color: white;
     border-radius: 15px;
-    box-shadow: 4px 4px 6px -1px rgb(186, 186, 186);
+    box-shadow: 4px 4px 5px -1px rgba(0, 0, 0, 20%);
 }
 
 .announcements {
