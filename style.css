@@ -207,6 +207,11 @@ main {
     grid-column-start: 2;
 }
 
+.announcements .card {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
 .announcement .title {
     font-weight: bold;
 }
@@ -215,7 +220,7 @@ main {
     grid-column-start: 2;
 }
 
-.trending>.card {
+.trending .card {
     display: grid;
     grid-template-columns: 20% 80%;
     grid-template-rows: repeat(4, 1fr);
