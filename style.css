@@ -189,16 +189,18 @@ main {
     padding: 40px;
 }
 
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+}
+
 .announcements {
     grid-column-start: 2;
 }
 
 .trending {
     grid-column-start: 2;
-}
-
-.card {
-    background-color: white;
 }
 
 .trending-user {
