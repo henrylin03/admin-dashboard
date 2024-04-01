@@ -196,3 +196,7 @@ main {
 .trending {
     grid-column-start: 2;
 }
+
+.trending {
+    width: 30px;
+}
