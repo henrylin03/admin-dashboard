@@ -17,6 +17,7 @@
 body {
     height: 100dvh;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
+    overflow: hidden;
 }
 
 .grid-container {
@@ -92,7 +93,6 @@ header {
 }
 
 header .top {
-    width: 100%;
     display: flex;
     gap: 20px;
 }
@@ -192,7 +192,7 @@ main {
     grid-template-columns: 4.5fr 1fr;
     grid-template-rows: repeat(2, 1fr);
     padding: 50px 50px 0 50px;
-    gap: 0 50px;
+    gap: 20px 50px;
 }
 
 .card {
