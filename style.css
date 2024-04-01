@@ -216,6 +216,7 @@ main {
 .announcement-item {
     display: flex;
     flex-direction: column;
+    place-self: center;
 }
 
 .announcement-item:not(:last-child) {
