@@ -184,9 +184,9 @@ main {
     grid-column: 2;
     grid-row: 2;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 4.5fr 1fr;
     grid-template-rows: repeat(2, 1fr);
-    padding: 40px;
+    padding: 50px;
 }
 
 .card {
