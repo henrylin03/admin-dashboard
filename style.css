@@ -44,6 +44,10 @@ h2 {
     margin-bottom: 10px;
 }
 
+h3 {
+    font-size: 1rem;
+}
+
 /* nav (sidebar) section */
 .sidebar {
     background-color: var(--primary-colour);
