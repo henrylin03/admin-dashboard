@@ -183,4 +183,8 @@ main {
     background-color: var(--light-grey-colour);
     grid-column: 2;
     grid-row: 2;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    padding: 30px 20px;
 }
